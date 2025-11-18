@@ -38,6 +38,10 @@
         font-family: var(--font-orbitron);
         color: var(--color-primary);
     }
+    
+    p{
+      @apply text-[18px] text-gray-DDD leading-8 -tracking-[0.2px];
+    }
 }
 @layer componensts{
   .linear_button{

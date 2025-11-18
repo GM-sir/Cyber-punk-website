@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cyber Punk</title>
-      <link href="./css/style.css" rel="stylesheet">
-</head>
-<body>
-  <nav class="py-[52px] relative after_bottom">
-    <div class="container " >
-      <div class="flex items-center gap-5 justify-between">
-        <div>
-          <img src="./images/logo.svg" alt="">
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="py-[52px] relative after_bottom">
+      <div class="container">
+        <div class="flex items-center gap-5 justify-between">
+          <div>
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <ul class="flex justify-center gap-12.5 items-center">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="">
+            <button class="linear_button">Get started free</button>
+          </div>
         </div>
-        <ul class="flex justify-center gap-12.5 items-center">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Contact</a></li>
-                                              
-        </ul>
-        <div class="">
-          <button class="linear_button">Get started free</button>
-        </div>
-        
       </div>
-    </div>
-  </nav>   
- 
-</body>
+    </nav>
+    <section>
+      <div class="container">
+        <h1
+          class="font-orbitron font-bold text-[180px] pt-[40px] text-white text-center"
+        >
+          Cyber Punk
+        </h1>
+        <div class="-mt-[185px] flex justify-center relative">
+          <div class="absolute top-[46%] left-7 font-montserrat">
+            <h3 class="text-white text-[24px] pb-4 font-montserrat">
+              Stories & Lore
+            </h3>
+            <p class="text-white text-base pl-5 max-w-[300px] font-medium">
+              Dive into compelling narratives set in a dystopian future.
+            </p>
+            <img
+              class="absolute top-4 -right-[146px]"
+              src="./images/shape.svg"
+              alt=""
+            />
+          </div>
+          <img
+            class="w-full max-w-[862px]"
+            src="./images/hero.svg"
+            alt="image"
+          />
+          <div class="absolute right-0 top-[40%] max-w-[344px] text-right">
+            <h3 class="text-white text-[36px] font-montserrat font-normal uppercase">Events and <span class="font-semibold">Updates</span></h3>
+            <p class="pt-11 pb-[58px]">Explore the high-tech, low-life world where the lines between humanity and machinery blur.</p>
+            <button class="linear_button">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
