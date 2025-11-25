@@ -15,6 +15,8 @@
   --color-gray-DDD: #DDDDDD;
   --color-red-609: #E03609;
   --color-orange-71F: #F0B71F;
+  --color-white-4 : #ffffff04;
+  --color-white-10 : #ffffff10;
  
         /* Font-family */
   --font-orbitron: "Orbitron", sans-serif; 
@@ -36,7 +38,7 @@
     }
     h1, h2, h3, h4, h5, h6{
         font-family: var(--font-orbitron);
-        color: var(--color-primary);
+        
     }
     
     p{
@@ -45,9 +47,21 @@
 }
 @layer componensts{
   .linear_button{
-    @apply text-[17px] font-semibold px-5 py-3 rounded-[12px] bg-linear-0 from-[#F0B71F] to-[#E03609];
+    @apply text-[17px] font-semibold px-5 py-3 rounded-xl bg-linear-0 from-[#F0B71F] to-[#E03609];
   }
   .after_bottom{
     @apply after:absolute after:h-px after:w-full after:bg-linear-to-r after:from-[#F0B71F] after:to-[#E03609] after:bottom-0 after:left-0;
  }
+  .blur_bg {
+    background: rgba(194, 13, 13, 0.04);
+    backdrop-filter: blur(25.7px);
+  }
+  .linear_color_text{
+
+    background: linear-gradient(270deg, #F0B71F 0%, #E03609 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
 }
