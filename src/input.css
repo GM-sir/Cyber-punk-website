@@ -56,6 +56,10 @@
     background: rgba(194, 13, 13, 0.04);
     backdrop-filter: blur(25.7px);
   }
+   .mini_blur_bg {
+    background: #ffffff10;
+    backdrop-filter: blur(10px);
+  }
   .linear_color_text{
 
     background: linear-gradient(270deg, #F0B71F 0%, #E03609 100%);
