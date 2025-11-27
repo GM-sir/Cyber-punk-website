@@ -47,10 +47,16 @@
 }
 @layer componensts{
   .linear_button{
-    @apply text-[17px] font-semibold px-5 py-3 rounded-xl bg-linear-0 from-[#F0B71F] to-[#E03609];
+    @apply text-[17px] font-semibold px-5 py-3 rounded-xl bg-linear-to-r from-[#F0B71F] to-[#E03609];
   }
   .after_bottom{
-    @apply after:absolute after:h-px after:w-full after:bg-linear-to-r after:from-[#F0B71F] after:to-[#E03609] after:bottom-0 after:left-0;
+    @apply after:absolute after:h-px after:w-full after:bg-linear-to-l after:from-[#F0B71F] after:to-[#E03609] after:bottom-0 after:left-0;
+ }
+  .after_left{
+    @apply before:absolute before:h-full before:w-[1.5px] before:bg-linear-to-t before:from-[#F0B71F] before:to-[#E03609] before:top-0 before:left-0;
+ }
+  .after_right{
+    @apply after:absolute after:h-full after:w-[1.5px] after:bg-linear-to-b after:from-[#F0B71F] after:to-[#E03609] after:top-0 after:right-0;
  }
   .blur_bg {
     background: rgba(194, 13, 13, 0.04);
