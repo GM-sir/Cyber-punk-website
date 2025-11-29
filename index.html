@@ -5,42 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cyber Punk</title>
     <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
   </head>
   <body class="relative">
     <div class="container absolute bg-transparent top-0 h-full after_left after_right left-1/2 -translate-x-1/2"></div>
-    <nav class="py-[52px] relative after_bottom">
+    <!-- <nav class="py-5 md:py-[52px] relative after_bottom">
       
       <div class="container relative">
-        <span class="absolute -left-[30px] -bottom-[82px] z-20 "><img src="./images/red_union.svg" alt=""></span>
-        <span class="absolute -right-[30px] -bottom-[82px] z-20 "><img src="./images/yellow_union.svg" alt=""></span>
+        <span class="hidden md:block absolute -left-[30px] -bottom-[82px] z-20 "><img src="./images/red_union.svg" alt=""></span>
+        <span class="hidden md:block absolute -right-[30px] -bottom-[82px] z-20 "><img src="./images/yellow_union.svg" alt=""></span>
         <div class="flex items-center gap-5 justify-between">
           <div>
             <img src="./images/logo.svg" alt="" />
           </div>
-          <ul class="flex justify-center gap-12.5 items-center">
+          <ul class="hidden  md:flex justify-center md:gap-12.5 items-center">
             <li><a href="#">Home</a></li>
             <li><a href="#">Pages</a></li>
             <li><a href="#">Support</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <div class="">
+          <div class="hidden md:block">
             <button class="linear_button">Get started free</button>
+          </div>
+          <div class=" md:hidden">
+            <button class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+</button>
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <main>
-      <section class="pb-[130px] relative after_bottom hero1">
+      <!-- <section class="pb-[130px] relative after_bottom hero1">
         <div class="container relative">
-          <span class="absolute -left-[30px] -bottom-40 z-20 "><img src="./images/red_union.svg" alt=""></span>
-        <span class="absolute -right-[30px] -bottom-40 z-20 "><img src="./images/yellow_union.svg" alt=""></span>
+          <span class="hidden md:block absolute -left-[30px] -bottom-40 z-20 "><img src="./images/red_union.svg" alt=""></span>
+        <span class="hidden md:block absolute -right-[30px] -bottom-40 z-20 "><img src="./images/yellow_union.svg" alt=""></span>
           <h1
-            class="font-orbitron font-bold text-[180px] pt-10 text-white text-center"
+            class="font-orbitron font-bold text-[60px] xl:[80px] 2xl-[180x] pt-10 text-white text-center"
           >
             Cyber Punk
           </h1>
-          <div class="-mt-[185px] flex justify-center relative">
-            <div class="absolute top-[46%] left-7 font-montserrat">
+          <div class="xl:-mt-[185px] flex justify-center relative">
+            <div class=" hidden xl:block absolute top-[46%] left-7 font-montserrat">
               <h3 class="text-white text-[24px] pb-4 font-montserrat">
                 Stories & Lore
               </h3>
@@ -58,13 +65,13 @@
               src="./images/hero.svg"
               alt="image"
             />
-            <div class="absolute right-0 top-[40%] max-w-[344px] text-right">
+            <div class="absolute right-0 top-[40%] max-w-[344px]  xl:text-right">
               <h3
                 class="text-white text-[36px] font-montserrat font-normal uppercase"
               >
                 Events and <span class="font-semibold">Updates</span>
               </h3>
-              <p class="pt-11 pb-[58px]">
+              <p class="pt-6 lg:pt-11 pb-6 lg:pb-[58px]">
                 Explore the high-tech, low-life world where the lines between
                 humanity and machinery blur.
               </p>
@@ -124,7 +131,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="pb-[230px] relative hero2 after_bottom">
         <div class="container relative">
@@ -225,7 +232,7 @@
         </div>
       </section>
 
-      <section class="relative after_bottom hero3">
+      <!-- <section class="relative after_bottom hero3">
         <div class="container relative">
           <span class="absolute -left-[30px] -bottom-[30px] z-20 "><img src="./images/red_union.svg" alt=""></span>
         <span class="absolute -right-[30px] -bottom-[30px] z-20 "><img src="./images/yellow_union.svg" alt=""></span>
@@ -321,9 +328,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="relative after_bottom hero4">
+      <!-- <section class="relative after_bottom hero4">
         <div class="container relative">
           <span class="absolute -left-[30px] -bottom-[30px] z-20 "><img src="./images/red_union.svg" alt=""></span>
         <span class="absolute -right-[30px] -bottom-[30px] z-20 "><img src="./images/yellow_union.svg" alt=""></span>
@@ -414,9 +421,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="relative hero5">
+      <!-- <section class="relative hero5">
         <div class="container relative mt-[95px]">
       
           <div
@@ -450,7 +457,7 @@
                 </div>
                 <div class="">
                   <button
-                    class="linear_color_text border border-[#F0B71F] text-[17px] font-semibold px-5 py-3 rounded-xl"
+                    class="linear_color_text border border-orange-71F text-[17px] font-semibold px-5 py-3 rounded-xl"
                   >
                     Learn More
                   </button>
@@ -459,9 +466,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="relative after_bottom ">
+      <!-- <section class="relative after_bottom ">
         <div class="container relative pt-[149px] pb-[168px]">
           <span class="absolute -left-[30px] -bottom-[30px] z-20 "><img src="./images/red_union.svg" alt=""></span>
         <span class="absolute -right-[30px] -bottom-[30px] z-20 "><img src="./images/yellow_union.svg" alt=""></span>
@@ -571,10 +578,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="container  pt-[88px] pr-[86px] pb-[50.5px] pl-[81px]">
+    <!-- <footer class="container  pt-[88px] pr-[86px] pb-[50.5px] pl-[81px]">
      
       <div class="w-[1353px] h-[113px] flex gap-[149px]">
         <div class="w-[478px]">
@@ -643,6 +650,6 @@
           <span><img src="./images/twiter.svg" alt="" /></span>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
